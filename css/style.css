@@ -23,6 +23,7 @@
   } */
 
   .carousel { width:640px; height:360px;}
+
   #background{
     background-image: url('../img/DivHacks_Background3.png');
     background-size: 100% 100%;
@@ -30,7 +31,7 @@
     background-size: cover;
     padding-bottom:20em;
    }
-  
+
    :root {
     --primary-color:        #DDC4DD;
     /* --secondary-color:      #A5DAA9; */
@@ -68,7 +69,7 @@
 
 
   /*---------------------------------------
-     TYPOGRAPHY              
+     TYPOGRAPHY
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
@@ -121,7 +122,7 @@
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
   }
-  
+
   .grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
@@ -174,7 +175,7 @@
     border-color: transparent;
 	transition: all .3s ease;
   }
-  
+
   .custom-btn:hover,
   .custom-btn:focus {
     background: var(--dark-color);
@@ -184,7 +185,7 @@
 
 
   /*---------------------------------------
-     GENERAL               
+     GENERAL
   -----------------------------------------*/
 
   * {
@@ -206,8 +207,8 @@
     text-decoration: none;
   }
 
-  a:hover, 
-  a:active, 
+  a:hover,
+  a:active,
   a:focus {
     color: var(--title-color);
     outline: none;
@@ -234,7 +235,7 @@
 
 
   /*---------------------------------------
-    MENU             
+    MENU
   -----------------------------------------*/
 
   .navbar {
@@ -355,7 +356,7 @@
 
 
   /*---------------------------------------
-     HERO              
+     HERO
   -----------------------------------------*/
 
   .hero {
@@ -377,7 +378,7 @@
 
 
   /*---------------------------------------
-     PROJECT              
+     PROJECT
   -----------------------------------------*/
 
   .project {
@@ -444,7 +445,7 @@
     margin:  35px 5px;
   }
 
-  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot.active span,
   .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--secondary-color);
   }
@@ -485,7 +486,7 @@
 
 
   /*---------------------------------------
-      ABOUT            
+      ABOUT
   -----------------------------------------*/
 
   .about {
@@ -499,10 +500,13 @@
     margin: 0 auto;
   }
 
+  #tracks{
+    margin-bottom: 5em;
+  }
 
 
   /*---------------------------------------
-      BLOG            
+      BLOG
   -----------------------------------------*/
 
   .blog-header {
@@ -550,7 +554,7 @@
 
 
   /*---------------------------------------
-     CONTACT              
+     CONTACT
   -----------------------------------------*/
 
   .newsletter-form .form-control,
@@ -580,16 +584,16 @@
 
 
   /*---------------------------------------
-     FOOTER              
+     FOOTER
   -----------------------------------------*/
 
   .site-footer {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     padding: 0 0 3em 0;
   }
 
   .site-footer a {
-    color: var(--p-color);
+    color: var(--primary-color);
   }
 
   .site-footer a:hover,
@@ -616,7 +620,7 @@
 
 
   /*---------------------------------------
-     SOCIAL ICON              
+     SOCIAL ICON
   -----------------------------------------*/
 
   .social-icon {
@@ -638,10 +642,28 @@
     text-align: center;
   }
 
+  /*---------------------------------------
+      BACKGROUND IMAGES
+  ---------------------------------------*/
 
+  #image-1{
+    background-image: url('../img/divider_background.jpg');
+  }
+
+  #image-2{
+    background-image: url('../img/divider_background_2.jpg');
+  }
+
+  .background-photo{
+    width:auto;
+	  height: 70vh;
+	  background-size: cover;
+    background-position: 50% 50%;
+	  background-attachment: fixed;
+  }
 
   /*---------------------------------------
-     RESPONSIVE STYLES              
+     RESPONSIVE STYLES
   -----------------------------------------*/
 
   @media screen and (min-width: 1200px) {
@@ -694,8 +716,8 @@
       margin: 1em 0;
     }
 
-    .copyright-text, 
-    .footer-link, 
+    .copyright-text,
+    .footer-link,
     .site-footer .social-icon {
       margin-top: 3em;
       padding: 0;
@@ -723,7 +745,7 @@
       margin: 0 auto;
     }
 
-    .footer-link, 
+    .footer-link,
     .site-footer .social-icon {
       margin-top: 1em;
     }
@@ -736,4 +758,3 @@
       margin-left: 0;
     }
   }
-
