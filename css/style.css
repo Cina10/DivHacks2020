@@ -364,13 +364,13 @@
 
   .hero {
     position: relative;
-    padding-bottom: 10em;
+    padding-bottom: 10vh;
     overflow: hidden;
   }
 
   .hero-bg {
-    padding: 10em;
-    padding-top: 4em;
+    padding: 10vh;
+    padding-top: 4vh;
   }
 
   .hero-image {
@@ -503,10 +503,23 @@
     margin: 0 auto;
   }
 
+  .about-title {
+    position: relative;
+    margin-top: 15vh;
+    overflow: hidden;
+  }
+
+  .about-body {
+    font-size: 20px;
+    font: open-sans;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    margin-bottom: 15vh;
+  }
+
   #tracks{
     margin-bottom: 5em;
   }
-
 
   /*---------------------------------------
       BLOG
@@ -515,7 +528,7 @@
   .blog-header {
     border-radius: var(--border-radius-small);
     position: relative;
-    overflow: hidden;
+    overflow: hidden
   }
 
   .blog-header img {
@@ -620,8 +633,6 @@
     margin-top: 5.3em;
   }
 
-
-
   /*---------------------------------------
      SOCIAL ICON
   -----------------------------------------*/
@@ -644,6 +655,16 @@
     margin: 15px;
     text-align: center;
   }
+
+  .fa {
+   padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: black;
+  border-radius: 50%;
+}
 
   /*---------------------------------------
       BACKGROUND IMAGES
