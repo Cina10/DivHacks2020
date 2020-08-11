@@ -605,7 +605,7 @@
 
   .site-footer {
     background: var(--secondary-color);
-    padding: 0 0 3em 0;
+    padding: 3vh 0 0vh 0;
   }
 
   .site-footer a {
@@ -623,14 +623,14 @@
     margin: 0 10px;
   }
 
-  .copyright-text,
   .footer-link,
   .site-footer .social-icon {
     margin-top: 6em;
   }
 
   .copyright-text {
-    margin-top: 5.3em;
+    margin-top: 2vh;
+    color: var(--primary-color);
   }
 
   /*---------------------------------------
