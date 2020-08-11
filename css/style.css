@@ -605,7 +605,7 @@
 
   .site-footer {
     background: var(--secondary-color);
-    padding: 3vh 0 0vh 0;
+    padding: 3vh 0 0 0;
   }
 
   .site-footer a {
@@ -631,6 +631,7 @@
   .copyright-text {
     margin-top: 2vh;
     color: var(--primary-color);
+    margin-right: 2vh;
   }
 
   /*---------------------------------------
