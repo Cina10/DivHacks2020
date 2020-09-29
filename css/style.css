@@ -584,17 +584,27 @@
   .flip-card-front {
     background-color: var(--primary-color);
     color: black;
+    
     text-align: center;
     
+  }
+  .flip-card-front h1 {
+    color: var(--title-color);
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%)
   }
 
   .flip-card-back {
     background-color: var(--primary-color);
     color: black;
     padding: 3vh;
+    padding-top: 6vh;
     transform: rotateY(180deg);
     overflow: scroll;
-    font-size: 1.25em;
+    scroll-padding-block: 2em;
+    font-size: 1.5em;
   }
 
   .flex-container {
