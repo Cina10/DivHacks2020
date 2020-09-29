@@ -557,6 +557,7 @@
     width: 35vh;
     height: 50vh;
     perspective: 200vh;
+    margin: 3vh
   }
 
   .flip-card-inner {
