@@ -585,13 +585,16 @@
     background-color: var(--primary-color);
     color: black;
     text-align: center;
+    
   }
 
   .flip-card-back {
     background-color: var(--primary-color);
     color: black;
-    padding: 1vh;
+    padding: 3vh;
     transform: rotateY(180deg);
+    overflow: scroll;
+    font-size: 1.25em;
   }
 
   .flex-container {
