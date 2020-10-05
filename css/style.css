@@ -198,6 +198,20 @@
     box-sizing: border-box;
   }
 
+  .t1 {
+    max-width: 75%;
+    max-height: 10vw;
+  }
+  .sponsor-row {
+    display: flex;
+    align-items: center;
+    padding: 2% 0%;
+  }
+  .sponsor-column {
+    width: 50%;
+    text-align: center;
+  }
+
   a {
     color: var(--link-color);
     font-weight: normal;
