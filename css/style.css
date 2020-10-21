@@ -198,10 +198,21 @@
     box-sizing: border-box;
   }
 
-  .t1 {
-    max-width: 75%;
-    max-height: 10vw;
+  .t2 {
+    max-width: 100%;
+    max-height: 14vw;
   }
+
+  .t1 {
+    max-height: 8vw;
+    max-width: 60%;
+  }
+
+  .t3 {
+    max-height: 8vw;
+    max-width: 80%;
+  }
+
   .sponsor-row {
     display: flex;
     align-items: center;
